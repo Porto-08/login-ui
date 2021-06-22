@@ -1,0 +1,61 @@
+@import "../global.module.scss";
+
+.headerContainer {
+  @include headerContainer;
+}
+
+.collum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: $cor-secundaria;
+
+  p {
+    font-size: 2.5em;
+  }
+  .inputContainer {
+    padding-top: 60px;
+    text-align: center;
+
+    .inputBox {
+      @include input;
+    }
+
+    .buttonBox {
+      @include button;
+    }
+
+    .buttonBoxSocial {
+      @include button;
+      background: none;
+      justify-content: flex-start;
+      border: 1px solid $cor-texto;
+
+      i {
+        padding-right: 20px;
+      }
+
+      &:hover {
+        background: $gradiente;
+        transition: .3s ease;
+      }
+    }
+  }
+}
+
+.password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 40px;
+  color: $cor-secundaria;
+
+  p {
+    &:hover {
+      border-bottom: 1px solid $cor-secundaria;
+      transition: .3s ease;
+    }
+  }
+}

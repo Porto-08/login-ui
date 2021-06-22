@@ -1,0 +1,55 @@
+@import "../global.module.scss";
+
+.navContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 40px;
+  color: $cor-secundaria;
+
+  h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  ul {
+    display: flex;
+
+    li {
+      padding-left: 30px;
+
+      a {
+        font-size: 1em;
+        font-weight: bold;
+        color: $cor-secundaria;
+        transition: .3s ease;
+
+        &:hover {
+          color: $cor-texto;
+          transition: .3s ease;
+        }
+      }
+    }
+  }
+
+  .searchBox {
+    i {
+      padding-right: 35px;
+    }
+
+    a {
+      color: $cor-secundaria;
+      padding: 10px 30px;
+      border: none;
+      border-radius: 10px;
+      background: $gradiente;
+      transition: .3s ease;
+
+      &:hover {
+        color: $cor-texto;
+      }
+    }
+  }
+}

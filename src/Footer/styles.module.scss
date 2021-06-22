@@ -1,0 +1,22 @@
+@import "../global.module.scss";
+
+.footerContainer {
+  
+  
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    color: $cor-texto;
+    transition: .3s ease;
+
+   &:hover {
+    color: $cor-secundaria;
+    transition: .3s ease;
+   } 
+
+   &:nth-child(1) {
+     margin-left: 10px;
+   }
+  }
+}

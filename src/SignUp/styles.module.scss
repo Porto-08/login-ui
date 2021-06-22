@@ -1,0 +1,31 @@
+@import "../global.module.scss";
+
+
+.headerContainer {
+  @include headerContainer;
+}
+
+.formContainer {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  
+
+  h2 {
+    text-align: center;
+    color: $cor-secundaria;
+
+    padding-bottom: 20px; 
+  }
+
+  .inputBox {
+    @include input;
+    i {
+      color: $cor-secundaria;
+    }
+  }
+
+  .buttonBox {
+    @include button;
+    justify-content: center;
+  }
+}
