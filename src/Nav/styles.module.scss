@@ -7,15 +7,23 @@
   align-items: center;
 
   padding-top: 40px;
-  color: $cor-secundaria;
+  
 
   h3 {
     font-size: 1.5em;
     font-weight: bold;
+    margin-bottom: 15px;
+    color: $cor-secundaria;
+
+    &:hover {
+      color: $cor-texto;
+      transition: 0.3s ease;
+    }
   }
 
   ul {
     display: flex;
+    flex-wrap: wrap;
 
     li {
       padding-left: 30px;
@@ -24,18 +32,26 @@
         font-size: 1em;
         font-weight: bold;
         color: $cor-secundaria;
-        transition: .3s ease;
+        transition: 0.3s ease;
 
         &:hover {
           color: $cor-texto;
-          transition: .3s ease;
+          transition: 0.3s ease;
         }
       }
     }
   }
 
   .searchBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 15px;
+
     i {
+      color: $cor-secundaria;
       padding-right: 35px;
     }
 
@@ -45,7 +61,7 @@
       border: none;
       border-radius: 10px;
       background: $gradiente;
-      transition: .3s ease;
+      transition: 0.3s ease;
 
       &:hover {
         color: $cor-texto;
