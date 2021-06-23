@@ -8,7 +8,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  
 
   h3 {
     font-size: 1.5em;
@@ -17,9 +16,8 @@
     color: $cor-secundaria;
 
     &:hover {
-      border-bottom: none;
       color: $cor-texto;
-      transition: 0.3s ease;
+      transition: .3s ease;
     }
   }
 
@@ -72,7 +70,6 @@
     }
   }
 }
-
 
 @media (max-width: 510px) {
   .navContainer {

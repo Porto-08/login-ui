@@ -1,3 +1,39 @@
+// reset
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #161616;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+
+  min-height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  /* para usar o padding respeitando o limite de tamanho da caixa */
+  box-sizing: border-box;
+}
+
+
 // variaveis
 $cor-primaria: #161616;
 $cor-secundaria: #fff;
@@ -53,6 +89,7 @@ $gradiente: linear-gradient(
   margin-bottom: 15px;
 
   transition: 0.9s ease;
+  cursor: pointer;
 }
 
 @mixin headerContainer {
@@ -82,37 +119,3 @@ $gradiente: linear-gradient(
   }
 }
 
-// reset
-* {
-  margin: 0px;
-  padding: 0;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  background-color: $cor-primaria;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-
-  min-height: 100%;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-* {
-  /* para usar o padding respeitando o limite de tamanho da caixa */
-  box-sizing: border-box;
-}

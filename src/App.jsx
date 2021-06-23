@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './global.module.scss'
 import Nav from "./Nav";
 import SignIn from "./SignIn";
