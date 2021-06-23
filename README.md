@@ -16,3 +16,6 @@ Repassei esta arte do site driblle.com para código. Apenas para estudo e práti
 ![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)
 ![SASS](https://img.shields.io/badge/-SASS-pink?style=flat-square&logo=sass)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap)
+
+
+# Autor da Arte: DStudio
