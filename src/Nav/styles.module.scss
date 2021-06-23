@@ -17,7 +17,7 @@
 
     &:hover {
       color: $cor-texto;
-      transition: .3s ease;
+      transition: 0.3s ease;
     }
   }
 
@@ -75,12 +75,17 @@
   .navContainer {
     display: block;
     text-align: center;
+
+    h3 {
+      padding-left: 15px;
+    }
+
     ul {
       display: block;
-
       li {
         padding-left: 0px;
         padding-top: 15px;
+        padding-right: 20px;
       }
     }
 
