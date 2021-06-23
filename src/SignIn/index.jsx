@@ -62,7 +62,7 @@ const SignIn = () => {
             </div>
 
             <div className="col-md-auto">
-              <p>/</p>
+              <p className={styles.separator}>/</p>
             </div>
 
             <div className="col-md-5">

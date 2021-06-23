@@ -38,7 +38,7 @@
 
       &:hover {
         background: $gradiente;
-        transition: .3s ease;
+        transition: 0.3s ease;
       }
     }
   }
@@ -55,7 +55,23 @@
   p {
     &:hover {
       border-bottom: 1px solid $cor-secundaria;
-      transition: .3s ease;
+      transition: 0.3s ease;
     }
+  }
+}
+
+@media (max-width: 510px) {
+  .collum {
+    .inputContainer {
+      padding-top: 15px;
+    }
+  }
+  .separator {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .password {
+    padding-top: 15px;
   }
 }
